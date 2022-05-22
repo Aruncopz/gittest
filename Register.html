@@ -1,136 +1,130 @@
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
-body
-{
-  font-family: Arial,
-  Helvetica, sans-serif;
-  background-color: white;
-}
-.topnav
-{
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #042F47;
-}
-
-.topnav a
-{
-  float: left;
-  color: #18DB87;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover
-{
-  background-color: #18DB87;
-  color: black;
-}
-
-.topnav a.active
-{
-  background-color: #18DB87;
-  color: white;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container
-{
-  padding: 20px;
-  text-align: left;
-  height: 650px;
-  border-radius: 20px;
-  background-color: #63BCC9;
-}
-
-input[type=text]
-{
-  width: 50%;
-  padding: 15px;
-  margin: 5px 0 10px 0;
-  text-align: left;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus
-{
-  background-color: #ddd;
-  outline: none;
-}
-
-hr
-{
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-.registerbtn
-{
-  background-color: green;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover
-{
-  text-align: center;
-  opacity: 1;
-}
-a
-{
-  color: white;
-}
-
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #042F47;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #18DB87;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #18DB87;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #18DB87;
+        color: white;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        padding: 20px;
+        text-align: left;
+        height: 650px;
+        border-radius: 20px;
+        background-color: #63BCC9;
+    }
+    
+    input[type=text] {
+        width: 50%;
+        padding: 15px;
+        margin: 5px 0 10px 0;
+        text-align: left;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+    
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+    
+    .registerbtn {
+        background-color: green;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+        text-align: center;
+        opacity: 1;
+    }
+    
+    a {
+        color: white;
+    }
 </style>
 </head>
+
 <body>
+    <div class="container">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">Add</a>
+            <a href="#contact">Edit</a>
+            <a href="#about">Delete</a>
+        </div>
 
-<form action="/action_page.php">
-  <div class="container">
-    <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">Add</a>
-    <a href="#contact">Edit</a>
-    <a href="#about">Delete</a>
-</div>
+        <form action="./login." id="registration">
 
-<div><center>
-    <h1><b>Registation Form<b></h1></center>
+            <div>
+                <center>
+                    <h1><b>Registration Form<b></h1></center>
     <hr>
 
     <label for="email"><b>User id</b></label><br>
-    <input type="text" placeholder="Enter User Id" name="User Id" id="User Id" required><br><br>
+                        <input type="text" placeholder="Enter User Id" name="userId" id="userId" required><br><br>
 
-    <label for="psw"><b>Name</b></label><br>
-    <input type="text" placeholder="Enter Name" name="name" id="Name" required><br><br>
+                        <label for="psw"><b>Name</b></label><br>
+                        <input type="text" placeholder="Enter Name" name="name" id="name" required><br><br>
 
-    <label for="psw-repeat"><b>Designation</b></label><br>
-    <input type="text" placeholder="Designation" name="designation" id="Designation" required><br><br>
+                        <label for="psw-repeat"><b>Designation</b></label><br>
+                        <input type="text" placeholder="Designation" name="designation" id="designation" required><br><br>
 
-    <label for="email"><b>Email</b></label><br>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+                        <label for="email"><b>Email</b></label><br>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
 
 
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
- 
-  </div>
-</form>
+                        <button type="submit" class="registerbtn">Register</button>
+            </div>
 
+    </div>
+    </form>
+    <script src="/register.js">
+    </script>
 </body>
+
 </html>
