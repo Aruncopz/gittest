@@ -1,0 +1,154 @@
+body{
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    height: 150vh ;
+}
+.clearfix{ clear: both;}
+.resume-box{
+   width: 800px;
+   height: 1000px ;
+   margin: 0 auto;
+   background-color: white;
+}
+.box-outer{
+    padding: 20px;
+}
+.box-1{
+    width:92%;
+    height: 730px; ;
+    background-color:rgb(248 250 252);
+    margin: 30px;
+    margin-top: 60px;
+    display: flex;
+}
+.box-2 {
+    width: 40%;
+    height: 730px;
+    background-color:rgb(248 250 252);
+}
+.box-3 {
+    width: 60%;
+    height: 730px;
+    background-color:rgb(248 250 252);
+    
+}
+.profile{
+    width: 150px;
+    border-radius: 200px;
+    margin: 50px 20px 20px 50px;
+    height: 180px;
+}
+.head{
+    text-align: center;
+    margin-top: -220px ;
+   
+}
+#box1{
+     margin-left: -30px;
+}
+#box2{
+    margin:-25px;
+}
+#box3{
+    
+    margin-left:60px;
+}
+#box4{
+    margin-top: -5px;
+    margin-left: 35px;
+}
+#box5{
+    margin-top: -12px;
+    margin-left: 105px;
+}
+#box6{
+    text-align: left;
+    color: blue;
+    font-size: 10px;
+}
+#box7{
+    text-align: left;
+    text-indent: 10px;
+}
+#box8{
+    text-align: left;
+    color: blue;
+    font-size: 10px;
+}
+#box10{
+    text-align: left;
+    color: blue;
+    font-size: 10px;
+}
+#box12{
+    text-align: left;
+    color: blue;
+    font-size: 10px;
+}
+#box14{
+    text-align: left;
+    color: blue;
+    font-size: 10px;
+}
+#box15{
+    text-align: left;
+    text-indent: 20px;
+}
+#box16{
+    text-align: left;
+    color: blue;
+    font-size: 10px;
+}
+#box18{
+    text-align: left;
+    font-size: 10px;
+}
+
+#box20{
+    text-align: left;
+    font-size: 10px;
+}
+.barChart_h{
+    display: block;
+    margin:10px; 
+    padding-bottom: 20px;                     
+    height: auto;                        
+    overflow-wrap: break-word;
+    border-spacing: 0;
+    font-size:13px;
+  } 
+   .barChart_h tbody th{
+    width: 25%;
+    font-weight: normal;
+    text-align: right;
+  } 
+.barChart_h tbody td{
+   border-left: 2px solid rgb(8, 7, 7);         
+   border-right: 1px solid rgb(8, 7, 7);         
+   background-image: linear-gradient(to right, rgb(8, 7, 7) 1px, transparent -1px);
+   background-size: 10% 100%;          
+  }
+ 
+  .barChart_h tbody th,
+  .barChart_h tbody td{
+    padding: 0.5rem 0 0.4rem 0;    
+  } 
+  .barChart_h tbody td span{
+    position: relative;
+    display: block; 
+    height: 10px;
+    background: #99FFFF;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+  } 
+  #box21{
+    text-align: left;
+    font-size: 10px;
+}
+#box22{
+    text-align: left;
+    font-size: 10px;
+}
